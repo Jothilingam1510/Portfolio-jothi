@@ -1,0 +1,138 @@
+
+.SkillContainer{
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0px;
+}
+.SkillContainer-text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    margin-bottom:20px ;
+    max-width: 500px;
+}
+.SkillContainer-text .h2{
+    font-size: 30px;
+}
+.SkillContainer-image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px ;
+}
+.SkillContainer-image img{
+    border-radius: 10px;
+    width: 450px;
+    object-fit: contain;
+}
+.skillContainer-skillset h4{
+    font-weight: 300px;
+    padding-bottom:20px ;
+    padding-top: 10px;
+}
+.SkillContainer-slider .MuiLinearProgress-colorprimary{
+    background-color: rgba(88,88,88,88);
+}
+.SkillContainer-slider1 div .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(255, 47, 47);
+} 
+.SkillContainer-slider2 div .MuiLinearProgress-barColorPrimary{
+    background-color:rgb(247, 132, 66);
+} 
+.SkillContainer-slider3 div .MuiLinearProgress-barColorPrimary{
+    background-color:rgb(145, 255, 0);
+} 
+.SkillContainer-slider4 div .MuiLinearProgress-barColorPrimary{
+    background-color:rgb(94, 244, 255);
+} 
+.SkillContainer-slider5 div .MuiLinearProgress-barColorPrimary{
+    background-color:yellow;
+} 
+
+//media query
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .SkillContainer{
+        .SkillContainer-image{
+            img{
+                
+                margin-left: 30px;
+            }   
+        }
+        .SkillContainer-text{
+            h2{
+                padding-bottom: 30px;
+            }
+            .skillContainer-skillset{
+                h4{
+
+                    padding-top:10x ;
+                    padding-bottom: 20px;
+                }
+            }
+            .SkillContainer-slider{
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+    .SkillContainer{
+        
+        margin-left: 60px;
+        display: block;
+        .SkillContainer-image{
+            img{
+                width: 550px;
+            }
+        }
+        .SkillContainer-text{
+            margin-left: 50px;
+            padding-top: 30px;
+            h2{
+                padding-bottom: 30px;
+            }
+            .skillContainer-skillset{
+                h4{
+
+                    padding-top:10x ;
+                    padding-bottom: 20px;
+                }
+            }
+            .SkillContainer-slider{
+                width: 600px;
+                margin-right: 50px;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .SkillContainer{
+        margin-left: 30px;
+        display: block;
+        .SkillContainer-image{
+            img{
+                width: 300px;
+            }
+        }
+        .SkillContainer-text{
+            h2{
+                padding-bottom: 30px;
+            }
+            .skillContainer-skillset{
+                h4{
+
+                    padding-top:10x ;
+                    padding-bottom: 20px;
+                }
+            }
+            .SkillContainer-slider{
+                margin-right: 50px;
+            }
+        }
+    }
+}

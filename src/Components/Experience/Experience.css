@@ -1,0 +1,77 @@
+.top .title p {
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  font-size: xx-large;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.top .imgdiv img {
+  width: 300px;
+  height: 300px;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.top .content {
+  margin-top: -400px;
+  margin-left: 500px;
+}
+.top .content .titles {
+  margin-top: 50px;
+  color: white;
+}
+.top .content .titles p {
+  text-indent: 60px;
+  margin-top: 20px;
+  width: 550px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .top {
+    margin-left: -80px;
+  }
+  .top .imgdiv img {
+    width: 250px;
+    height: 250px;
+  }
+  .top .content {
+    margin-left: 450px;
+    margin-top: -360px;
+  }
+  .top .content .titles p {
+    width: 410px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .top {
+    margin-left: -80px;
+  }
+  .top .imgdiv img {
+    width: 600px;
+    height: 300px;
+  }
+  .top .content {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+  .top .content .titles p {
+    width: 600px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .top .imgdiv img {
+    margin-left: -100px;
+    width: 300px;
+    height: 200px;
+  }
+  .top .content {
+    margin-left: 20px;
+    margin-top: 50px;
+  }
+  .top .content .titles p {
+    width: 350px;
+  }
+}/*# sourceMappingURL=Experience.css.map */
